@@ -6,11 +6,11 @@
 int main(void)
 {
 int j; 
-char H[] = "Holberton";
+char h[9] = "Holberton";
 
 for(j < 4; j <= 9; j++)
 {
-putchar(H[j]);
+putchar(h[j]);
 }
 putchar('\n');
 
