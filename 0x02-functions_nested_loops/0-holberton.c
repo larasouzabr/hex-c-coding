@@ -1,10 +1,18 @@
-#include <stdio.h>
+#include "HOLBERTON.H"
 /**
 * main - it prints Holberton
 * Return: it returns 0
 */
 int main(void)
 {
-printf("Holberton\n");
+int j; 
+char H[] = "Holberton";
+
+for(j<4; j <=9; j++)
+{
+putchar(H[j]);
+}
+putchar('\n');
+
 return(0);
 } 
